@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:0f3460,100:16213e&height=220&section=header&text=Manas%20Roy&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Site%20Reliability%20Engineer%20%7C%20Infra%20%7C%20Automation%20%7C%20AI%2FML&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:0f3460,100:16213e&height=220&section=header&text=Manas%20Roy&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=SRE%20%7C%20Infra%20%7C%20Automation%20%7C%20AI%2FML&descAlignY=58&descAlign=50" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=SRE+%40+BT;Linux+%7C+Networking+%7C+Monitoring;Automating+Infra+with+Python+%26+Ansible;Exploring+Cloud+%2B+DevOps+%2B+AI%2FML" alt="Typing SVG" />
@@ -43,6 +43,12 @@ Hey, I'm **Manas** 👋 — an **SRE at BT** with an **M.Tech in Computer Scienc
 
 </div>
 
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=linux,bash,python,ansible,docker,aws,azure,git,githubactions,grafana,prometheus,nginx,postgres,terraform,jenkins,kubernetes&theme=dark&perline=8" />
+
+</div>
+
 ## 🚀 Currently Exploring
 
 <div align="center">
@@ -52,6 +58,23 @@ Hey, I'm **Manas** 👋 — an **SRE at BT** with an **M.Tech in Computer Scienc
 ![DevOps](https://img.shields.io/badge/DevOps%20Automation-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
 ![Observability](https://img.shields.io/badge/Observability-632CA6?style=for-the-badge&logo=grafana&logoColor=white)
 ![AI/ML](https://img.shields.io/badge/AI%2FML%20Predictive%20Scaling-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+</div>
+
+---
+
+## 🎯 Impact Snapshot
+
+<div align="center">
+
+| ⚙️ Focus Area | 🛠️ What I Do |
+|---|---|
+| **Reliability** | On-call incident response, RCA, reducing MTTR across production systems |
+| **Automation** | Python + Ansible pipelines that replace manual runbooks |
+| **Observability** | Dashboards & alerting tuned with SCOM, Datadog-style monitoring stacks |
+| **Networking** | TCP/IP troubleshooting across enterprise infra (Cisco, Palo Alto) |
+| **Cloud** | Hands-on with AWS & Azure for scalable infra experiments |
+| **AI/ML** | Exploring predictive scaling & anomaly detection for SRE workflows |
 
 </div>
 
@@ -81,6 +104,12 @@ Hey, I'm **Manas** 👋 — an **SRE at BT** with an **M.Tech in Computer Scienc
 
 <img src="https://streak-stats.demolab.com/?user=MROYNINJA&theme=radical&hide_border=true" width="65%"/>
 
+</div>
+
+## 📈 Activity Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MROYNINJA&theme=react-dark&hide_border=true&area=true" width="90%"/>
 </div>
 
 ## 🏆 Trophies
