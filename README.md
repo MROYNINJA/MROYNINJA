@@ -124,7 +124,45 @@ Hey, I'm **Manas** 👋 — an **SRE at BT** with an **M.Tech in Computer Scienc
 <img src="https://raw.githubusercontent.com/MROYNINJA/MROYNINJA/output/github-contribution-grid-snake-dark.svg" width="90%"/>
 </div>
 
-> 💡 **Note:** the snake animation needs a one-time GitHub Actions workflow to generate it (`Platane/snk`) — I've included the setup steps below if you want it live.
+> 💡 **Note:** the snake animation needs a one-time GitHub Actions workflow to generate it (`Platane/snk`) — setup steps below.
+
+<details>
+<summary>⚙️ <strong>Click to expand: one-time setup to make the snake go live</strong></summary>
+
+<br>
+
+1. In your `MROYNINJA/MROYNINJA` repo, create the file `.github/workflows/snake.yml`
+2. Paste this in:
+
+```yaml
+name: generate snake
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: MROYNINJA
+          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. Commit it, then go to the **Actions** tab and manually run the workflow once (`workflow_dispatch`)
+4. It'll create an `output` branch with the generated SVG — after that, it auto-refreshes every 6 hours
+
+</details>
 
 ---
 
